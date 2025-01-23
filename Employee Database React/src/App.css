@@ -1,0 +1,65 @@
+
+  /* Grid container for the cards */
+  .grid-container {
+    padding: 20px;
+  }
+  
+  /* Individual card styling */
+  .employee-card {
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    border-radius: 10px;
+    background-color: #ffffff; /* White background */
+  }
+  
+  .employee-card:hover {
+    transform: translateY(-5px); /* Slight lift on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+  }
+  
+  /* Card content styling */
+  .card-content {
+    padding: 16px;
+  }
+  
+  /* Typography styling */
+  .employee-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333333; /* Dark gray text */
+  }
+  
+  .employee-detail {
+    font-size: 0.9rem;
+    color: #666666; /* Medium gray text */
+  }
+  
+  /* Button container styling */
+  .card-actions {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 16px;
+  }
+  
+  /* Update button styling */
+  .update-button {
+    background-color: #4caf50; /* Green color */
+    color: white;
+    border-radius: 5px;
+    text-transform: none; /* Prevent uppercase text */
+  }
+  
+  .update-button:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }
+  
+  /* Delete button styling */
+  .delete-button {
+    background-color: #f44336; /* Red color */
+    color: white;
+    border-radius: 5px;
+    text-transform: none; /* Prevent uppercase text */
+  }
+  
+  .delete-button:hover {
+    background-color: #d32f2f; /* Darker red on hover */
+  }
